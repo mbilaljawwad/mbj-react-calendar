@@ -1,0 +1,18 @@
+.root {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+
+  h2 {
+    margin: 0 20px;
+  }
+}
+
+.button {
+  background: none;
+  border: 1px gray solid;
+  font-size: calc(25rem / 16);
+  color: gray;
+  border-radius: 50%;
+  padding: 5px;
+}

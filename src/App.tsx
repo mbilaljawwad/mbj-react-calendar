@@ -1,9 +1,10 @@
 import styles from './App.module.scss';
+import Calender from './Calendar/Root';
 
 function App() {
   return (
     <div className={styles.root}>
-      <h1>Vite + React</h1>
+      <Calender />
     </div>
   );
 }
